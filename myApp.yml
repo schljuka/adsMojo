@@ -1,0 +1,9 @@
+---
+secrets:
+  - dbc1fd37c0c6f83c36e5fb6070e68054db1367ad
+postgres: "postgresql://postgres@/myApp"
+hypnotoad:
+  listen:
+    - http://*:3000
+  workers: 3
+  proxy: 1
